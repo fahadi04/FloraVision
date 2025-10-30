@@ -10,10 +10,10 @@ export default function Navbar() {
                 <img
                     src={img1}
                     alt="nav-logo"
-                    className=" object-contain drop-shadow-lg"
+                    className="object-contain drop-shadow-lg"
                 />
                 <h1 className="text-3xl font-extrabold text-green-400 tracking-wide">
-                    FloralVision.
+                    FloraVision.
                 </h1>
             </div>
 
@@ -27,7 +27,7 @@ export default function Navbar() {
             <div className="flex items-center space-x-6">
                 <Search className="w-6 h-6 text-gray-300 hover:text-green-400 cursor-pointer transition-colors" />
                 <ShoppingBag className="w-6 h-6 text-gray-300 hover:text-green-400 cursor-pointer transition-colors" />
-                <Menu className="w-7 h-7 text-gray-300 hover:text-green-400 cursor-pointer transition-colors md:hidden" />
+                <Menu className="w-7 h-7 text-gray-300 hover:text-green-400 cursor-pointer transition-colors " />
             </div>
         </nav>
     );

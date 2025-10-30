@@ -1,18 +1,21 @@
 import React from "react";
-import img1 from "../assets/Nav-img/plant 1.png"; // your logo image
+import img1 from "../assets/Nav-img/plant 1.png";
 
 export default function Footer() {
     return (
-        <footer className="bg-[#0b2e13] text-gray-200 py-12 px-8 md:px-20">
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-10">
+        <footer className=" text-gray-200 py-12 px-8 md:px-20"
+            style={{
+                background: "linear-gradient(180deg, #1B2316 0%, #182012 50%, #10170C 100%)",
+            }}>
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-10"
+            >
 
-                {/* Left Section */}
                 <div>
                     <div className="flex items-center space-x-3 mb-4">
                         <img src={img1} alt="FloraVision Logo" className="h-12 w-12 object-contain" />
                         <h2 className="text-2xl font-bold text-white">FloraVision.</h2>
                     </div>
-                    <p className="text-gray-300 max-w-xs mb-6 leading-relaxed">
+                    <p className="text-gray-300 max-w-xs mb-6">
                         "From lush indoor greens to vibrant outdoor blooms, our plants are crafted
                         to thrive and elevate your living environment."
                     </p>
@@ -24,18 +27,16 @@ export default function Footer() {
                     </div>
                 </div>
 
-                {/* Middle Section */}
                 <div>
                     <h3 className="text-lg font-semibold text-white mb-4">Quick Link’s</h3>
                     <ul className="space-y-2">
-                        <li className="hover:text-green-400 cursor-pointer">Home</li>
-                        <li className="hover:text-green-400 cursor-pointer">Type’s Of Plant’s</li>
-                        <li className="hover:text-green-400 cursor-pointer">Contact</li>
-                        <li className="hover:text-green-400 cursor-pointer">Privacy</li>
+                        <li className="hover:text-green-400 underline decoration-green-400 cursor-pointer">Home</li>
+                        <li className="hover:text-green-400 underline decoration-green-400 cursor-pointer">Type’s Of Plant’s</li>
+                        <li className="hover:text-green-400  underline decoration-green-400 cursor-pointer">Contact</li>
+                        <li className="hover:text-green-400 underline decoration-green-400 cursor-pointer">Privacy</li>
                     </ul>
                 </div>
 
-                {/* Right Section */}
                 <div>
                     <h3 className="text-lg font-semibold text-white mb-4">For Every Update.</h3>
                     <div className="flex border border-green-700 rounded overflow-hidden max-w-sm">
@@ -48,13 +49,14 @@ export default function Footer() {
                             SUBSCRIBE
                         </button>
                     </div>
+                    <div className="text-center text-gray-400 font-bold text-md  mt-10 pt-8">
+                        FloraVision © All right reserve
+                    </div>
                 </div>
+
             </div>
 
-            {/* Bottom Line */}
-            <div className="text-center text-gray-400 text-sm mt-10 border-t border-green-800 pt-4">
-                FloraVision © All right reserve
-            </div>
+
         </footer>
     );
 }

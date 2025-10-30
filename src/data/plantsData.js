@@ -9,38 +9,39 @@ import img6 from "../../src/assets/plants/Sans_plant.png.png";
 export const topSellingPlants = [
   {
     name: "Aglaonema",
-    desc: "A beautiful indoor plant known for its air-purifying qualities.",
-    price: "$20.00",
+    desc: "The Aglaonema plant, commonly known as Chinese Evergreen known for its attractive foliage and ease of care",
+    price: "300",
     img: img1,
   },
   {
     name: "Plantain Lillies",
-    desc: "Vibrant green leaves with low maintenance.",
-    price: "$15.00",
+    desc: "Hostas are primarily grown for their lush, decorative leaves, which come in a wide variety of shapes, sizes,",
+    price: "380",
     img: img2,
   },
   {
     name: "Cactus",
-    desc: "Perfect for sunny corners and minimal care.",
-    price: "$18.00",
+    desc: "It is known for their ability to thrive in arid environments",
+    price: "259",
     img: img3,
   },
   {
     name: "Swiss Cheese Plant",
-    desc: "Tropical vibes with large perforated leaves.",
-    price: "$25.00",
+    desc: "It is a popular tropical houseplant known for its distinctive, perforated leaves",
+    price: "400",
     img: img4,
   },
   {
-    name: "Agave",
-    desc: "Succulent plant with a bold, architectural form.",
-    price: "$22.00",
+    name: "Sansevieria Plant",
+    desc: "It is a popular indoor plant admired for its striking appearance and low-maintenance nature.",
+    price: "450",
     img: img5,
   },
+
   {
-    name: "Snake Plant",
-    desc: "Low-light tolerant and air-purifying powerhouse.",
-    price: "$19.00",
+    name: "Agave",
+    desc: "Succulent plant with The Agave plant is a genus of succulent plants known for their striking rosette of thick, fleshy leaves and architectural forms. bold, architectural form.",
+    price: "359",
     img: img6,
   },
 ];
